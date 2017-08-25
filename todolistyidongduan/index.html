@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>谢丽娜</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script src="js/jquery1.1.min.js"></script>
+    <script src="js/rem.js"></script>
+</head>
+<body>
+    <header>
+        <h1>TODOLIST</h1>
+    </header>
+    <main>
+        <div class="xiangmu">
+            <div class="img"><img src="imgs/3.png" alt=""></div>
+            <p>添加事项</p>
+        </div>
+        <div class="xiangmu">
+            <div class="img"><img src="imgs/1.png" alt=""></div>
+            <p>待完事项</p>
+        </div>
+        <div class="xiangmu">
+            <div class="img"><img src="imgs/2.png" alt=""></div>
+            <p>完成项</p>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="add xuan">
+                <h3>添加新事项</h3>
+                <div class="add-text">
+                    <textarea autofocus id="text"></textarea>
+                    <div class="notice"><span>00</span>/50</div>
+                    <div class="anniu" >完成</div>
+                </div>
+                <div class="close">×</div>
+            </div>
+            <div class="wait xuan">
+                <h3>未完成事项</h3>
+                <ul class="item">
+
+                </ul>
+                <div class="anniu1">移动到已完成</div>
+            </div>
+            <div class="done xuan">
+                <h3>已完成事项</h3>
+                <ul class="item">
+                    <li>
+                        <div class="top">
+                            <input type="checkbox">
+                            <p>111</p>
+                        </div>
+                        <div class="bottom">
+                            <time>2017/09/26/13:50</time>
+                            <i class='iconfont'>&#xe6b8;</i>
+                        </div>
+                    </li>
+                </ul>
+                <div class="anniu2" >删除</div>
+            </div>
+            <div class="chakan">
+                <span>×</span>
+                <p></p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/index.js"></script>
+</html>
